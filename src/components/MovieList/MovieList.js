@@ -26,7 +26,7 @@ function MovieList({ urlData, isPoster, title }) {
         setPages(data.total_pages);
       }
     }
-    fetchData();
+    if (urlData) fetchData();
   }, [current]);
 
   let selectedMovie;
