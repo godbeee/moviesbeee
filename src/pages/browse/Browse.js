@@ -3,12 +3,12 @@ import MovieList from "../../components/MovieList/MovieList";
 import Nav from "../../components/Nav/Nav";
 import requests from "../../requests/Request";
 
-function Browse({ error }) {
+function Browse() {
   return (
     <>
       <Nav />
       <Banner />
-      {!error && (
+      {true && (
         <div style={{ padding: "3rem 2rem", backgroundColor: "#1B2430" }}>
           <MovieList
             urlData={requests.fetchTrending}
@@ -117,7 +117,6 @@ function Browse({ error }) {
           />
         </div>
       )}
-      {error && <p>fail to fetch data!</p>}
     </>
   );
 }
