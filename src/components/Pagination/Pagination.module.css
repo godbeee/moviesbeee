@@ -1,0 +1,13 @@
+.pagination {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  padding-right: 2rem;
+}
+.pageItem {
+  padding: 1rem;
+}
+.pageLink {
+  text-decoration: none;
+  color: #fff;
+}

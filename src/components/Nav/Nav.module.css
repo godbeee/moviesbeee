@@ -1,0 +1,26 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  padding: 1rem 2rem;
+}
+.search {
+  width: 28px;
+  height: 28px;
+}
+.branch {
+  color: red;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.bg-none {
+  background-color: transparent;
+}
+.bg-black {
+  background-color: black;
+}

@@ -1,0 +1,26 @@
+const requests = {
+  fetchTrending: `https://moviebeee-api.onrender.com/api/movies/trending`,
+  fetchTopRated: `https://moviebeee-api.onrender.com/api/movies/top-rate`,
+  fetchActionMovies: `https://moviebeee-api.onrender.com/api/movies/discover/28`,
+  fetchAdventureMovies: `https://moviebeee-api.onrender.com/api/movies/discover/12`,
+  fetchAnimationMovies: `https://moviebeee-api.onrender.com/api/movies/discover/16`,
+  fetchComedyMovies: `https://moviebeee-api.onrender.com/api/movies/discover/35`,
+  fetchCrimeMovies: `https://moviebeee-api.onrender.com/api/movies/discover/80`,
+  fetchDocumentaryMovies: `https://moviebeee-api.onrender.com/api/movies/discover/99`,
+  fetchDramaMovies: `https://moviebeee-api.onrender.com/api/movies/discover/18`,
+  fetchFamilyMovies: `https://moviebeee-api.onrender.com/api/movies/discover/10751`,
+  fetchFantasyMovies: `https://moviebeee-api.onrender.com/api/movies/discover/14`,
+  fetchHistoryMovies: `https://moviebeee-api.onrender.com/api/movies/discover/36`,
+  fetchHorrorMovies: `https://moviebeee-api.onrender.com/api/movies/discover/27`,
+  fetchMusicMovies: `https://moviebeee-api.onrender.com/api/movies/discover/10402`,
+  fetchMysteryMovies: `https://moviebeee-api.onrender.com/api/movies/discover/9648`,
+  fetchRomanceMovies: `https://moviebeee-api.onrender.com/api/movies/discover/10749`,
+  fetchScienceMovies: `https://moviebeee-api.onrender.com/api/movies/discover/878`,
+  fetchTvMovies: `https://moviebeee-api.onrender.com/api/movies/discover/10770`,
+  fetchThrillerMovies: `https://moviebeee-api.onrender.com/api/movies/discover/53`,
+  fetchWarMovies: `https://moviebeee-api.onrender.com/api/movies/discover/10752`,
+  fetchWesternMovies: `https://moviebeee-api.onrender.com/api/movies/discover/37`,
+  img: "https://image.tmdb.org/t/p/original",
+};
+
+export default requests;

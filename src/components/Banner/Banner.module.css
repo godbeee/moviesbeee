@@ -1,0 +1,55 @@
+.banner {
+  height: 60vh;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: cadetblue;
+  /* filter: brightness(60%); */
+}
+.banner > img {
+  width: 100%;
+  height: 100%;
+}
+.text-box {
+  position: absolute;
+  left: 2rem;
+  bottom: 4rem;
+  max-width: 30rem;
+  color: #fff;
+}
+.text-box > h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+.text-box > button {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border: none;
+  background-color: gray;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+.text-box > button:first-of-type {
+  margin-right: 0.6rem;
+}
+.text-box > p {
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+@media only screen and (max-width: 640px) {
+  .text-box {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    width: 90%;
+    transform: translate(-50%, 0);
+    text-align: center;
+  }
+  .text-box > h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+}

@@ -1,0 +1,17 @@
+.result {
+  width: 9.5rem;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.result > img {
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .result {
+    width: 100%;
+  }
+}
