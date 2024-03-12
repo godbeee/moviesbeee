@@ -90,7 +90,7 @@ function Search() {
   useEffect(() => {
     async function reFetch() {
       const res = await fetch(
-        `http://localhost:5000/api/movies/search?page=${current}&&language=${language}&&mediaType=${mediaType}&&year=${year}&&genreId=${genreId}`,
+        `https://moviebeee-api.onrender.com/api/movies/search?page=${current}&&language=${language}&&mediaType=${mediaType}&&year=${year}&&genreId=${genreId}`,
         {
           method: "POST",
           headers: {
